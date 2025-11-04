@@ -1,0 +1,73 @@
+body {
+  background: #1e1e2f;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.counter-container {
+  background: #2e2e3a;
+  color: #00ff84;
+  border-radius: 20px;
+  padding: 30px;
+  width: 300px;
+  margin: 100px auto;
+  box-shadow: inset 5px 5px 10px #252530, inset -5px -5px 10px #38384a;
+  text-align: center;
+}
+
+.counter-display {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 2px solid #444;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.counter-buttons button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 12px;
+  font-size: 1.2rem;
+  background: #2e2e3a;
+  color: #00ff84;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px #252530, -5px -5px 10px #38384a;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.counter-buttons button:active {
+  box-shadow: inset 5px 5px 10px #252530, inset -5px -5px 10px #38384a;
+}
+
+.custom-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.custom-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+}
+
+.custom-input button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
